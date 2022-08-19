@@ -1,0 +1,113 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "name": "Untitled0.ipynb",
+      "provenance": [],
+      "authorship_tag": "ABX9TyMK0GnoqbjkCIEU1yEiykUd",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/duvancastro/repositorio/blob/main/primercodigopyton\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "n1=10\n",
+        "n2=4\n",
+        "r=n1+n2\n",
+        "print(\"la suma es \" + str(r))"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "Kal5wCBXPgyn",
+        "outputId": "6ce66a33-78d8-4dbe-d687-83a125d3ecf5"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "la suma es 14\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "n1=int(input(\"diguite el primer numero a sumar\"))\n",
+        "n2=int(input(\"diguite el segundo numero a sumar\"))\n",
+        "r=n1+n2\n",
+        "print(\"la suma es \" + str(r))"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "RX6rZD6XRIB0",
+        "outputId": "503e2a76-6cd9-4bd2-fc9e-6ade815dff72"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "diguite eln primer numero a sumar10\n",
+            "diguite eln primer numero a sumar4\n",
+            "la suma es 14\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "edad=int(input(\"diguite edad \"))\n",
+        "if edad>=18:\n",
+        "  print(\"Es mayor de edad con \" + str(edad))\n",
+        "else:\n",
+        "  print(\"Es menor de edad con \"+ str(edad))\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "_spsyJdwR5WZ",
+        "outputId": "c7f7373c-4514-4519-baed-92412ffffd0e"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "diguite edad 18\n",
+            "Es mayor de edad con 18\n"
+          ]
+        }
+      ]
+    }
+  ]
+}
